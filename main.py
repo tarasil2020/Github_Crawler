@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 import random
 import unittest
 
+import time
+
 class GithubCrawler:
     #initializing class with necessary variables
     def __init__(self, proxies=[], keywords=[], type=[]):
